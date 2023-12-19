@@ -21,7 +21,7 @@ defmodule KV.MixProject do
   # Run "mix help deps" to learn about dependencies
   defp deps do
     [
-      {:ueberauth, "~> 0.10.5"},
+      {:ueberauth, "0.10.5"},
       {:ueberauth_github, "~> 0.8"},
       # Plug required by Ueberauth
       {:plug, "~> 1.5"},
